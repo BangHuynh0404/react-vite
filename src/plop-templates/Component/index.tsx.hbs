@@ -1,0 +1,21 @@
+import './index.scss'
+
+export interface I{{pascalCase name}} {
+  children?: React.ReactNode;
+}
+
+const {{pascalCase name}}: React.FC<I{{pascalCase name}}> = ({ children }) => {
+  //Some Logic
+  return (
+    <div className="{{classNameComponent type}}{{camelCase name}}">
+      {children}
+    </div>
+  )
+};
+
+{{pascalCase name}}.defaultProps = {
+  children: undefined,
+};
+
+export default {{pascalCase name}};
+

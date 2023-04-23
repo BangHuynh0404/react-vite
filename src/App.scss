@@ -1,0 +1,9 @@
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+
+//Components
+@import "./styles/atoms.scss";
+@import "./styles/molecules.scss";
+@import "./styles/organisms.scss";
+@import "./styles/templates.scss";
+@import "./styles/containers.scss";
